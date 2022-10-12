@@ -1,0 +1,82 @@
+is_global = true
+build_property.TargetFramework = net6.0-ios
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = false
+build_property.PlatformNeutralAssembly = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = restaurantMALO
+build_property.ProjectDir = C:\Users\Laura\Documents\MASTER\An 2 - Semestrul 1\PDM - Programarea Dispozitivelor Mobile\restaurantMALO\restaurantMALO\restaurantMALO\
+
+[C:/Users/Laura/Documents/MASTER/An 2 - Semestrul 1/PDM - Programarea Dispozitivelor Mobile/restaurantMALO/restaurantMALO/restaurantMALO/App.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = restaurantMALO.App.xaml
+build_metadata.AdditionalFiles.TargetPath = App.xaml
+build_metadata.AdditionalFiles.RelativePath = App.xaml
+
+[C:/Users/Laura/Documents/MASTER/An 2 - Semestrul 1/PDM - Programarea Dispozitivelor Mobile/restaurantMALO/restaurantMALO/restaurantMALO/AppShell.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = restaurantMALO.AppShell.xaml
+build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
+build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
+
+[C:/Users/Laura/Documents/MASTER/An 2 - Semestrul 1/PDM - Programarea Dispozitivelor Mobile/restaurantMALO/restaurantMALO/restaurantMALO/ChartPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = restaurantMALO.ChartPage.xaml
+build_metadata.AdditionalFiles.TargetPath = ChartPage.xaml
+build_metadata.AdditionalFiles.RelativePath = ChartPage.xaml
+
+[C:/Users/Laura/Documents/MASTER/An 2 - Semestrul 1/PDM - Programarea Dispozitivelor Mobile/restaurantMALO/restaurantMALO/restaurantMALO/ContactPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = restaurantMALO.ContactPage.xaml
+build_metadata.AdditionalFiles.TargetPath = ContactPage.xaml
+build_metadata.AdditionalFiles.RelativePath = ContactPage.xaml
+
+[C:/Users/Laura/Documents/MASTER/An 2 - Semestrul 1/PDM - Programarea Dispozitivelor Mobile/restaurantMALO/restaurantMALO/restaurantMALO/DesprePage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = restaurantMALO.DesprePage.xaml
+build_metadata.AdditionalFiles.TargetPath = DesprePage.xaml
+build_metadata.AdditionalFiles.RelativePath = DesprePage.xaml
+
+[C:/Users/Laura/Documents/MASTER/An 2 - Semestrul 1/PDM - Programarea Dispozitivelor Mobile/restaurantMALO/restaurantMALO/restaurantMALO/LocatiiPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = restaurantMALO.LocatiiPage.xaml
+build_metadata.AdditionalFiles.TargetPath = LocatiiPage.xaml
+build_metadata.AdditionalFiles.RelativePath = LocatiiPage.xaml
+
+[C:/Users/Laura/Documents/MASTER/An 2 - Semestrul 1/PDM - Programarea Dispozitivelor Mobile/restaurantMALO/restaurantMALO/restaurantMALO/MainPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = restaurantMALO.MainPage.xaml
+build_metadata.AdditionalFiles.TargetPath = MainPage.xaml
+build_metadata.AdditionalFiles.RelativePath = MainPage.xaml
+
+[C:/Users/Laura/Documents/MASTER/An 2 - Semestrul 1/PDM - Programarea Dispozitivelor Mobile/restaurantMALO/restaurantMALO/restaurantMALO/MeniuPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = restaurantMALO.MeniuPage.xaml
+build_metadata.AdditionalFiles.TargetPath = MeniuPage.xaml
+build_metadata.AdditionalFiles.RelativePath = MeniuPage.xaml
+
+[C:/Users/Laura/Documents/MASTER/An 2 - Semestrul 1/PDM - Programarea Dispozitivelor Mobile/restaurantMALO/restaurantMALO/restaurantMALO/NotaPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = restaurantMALO.NotaPage.xaml
+build_metadata.AdditionalFiles.TargetPath = NotaPage.xaml
+build_metadata.AdditionalFiles.RelativePath = NotaPage.xaml
+
+[C:/Users/Laura/Documents/MASTER/An 2 - Semestrul 1/PDM - Programarea Dispozitivelor Mobile/restaurantMALO/restaurantMALO/restaurantMALO/Resources/Styles/Colors.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = restaurantMALO.Resources.Styles.Colors.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Colors.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Colors.xaml
+
+[C:/Users/Laura/Documents/MASTER/An 2 - Semestrul 1/PDM - Programarea Dispozitivelor Mobile/restaurantMALO/restaurantMALO/restaurantMALO/Resources/Styles/Styles.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = restaurantMALO.Resources.Styles.Styles.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Styles.xaml
+
+[C:/Users/Laura/Documents/MASTER/An 2 - Semestrul 1/PDM - Programarea Dispozitivelor Mobile/restaurantMALO/restaurantMALO/restaurantMALO/ReviewPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = restaurantMALO.ReviewPage.xaml
+build_metadata.AdditionalFiles.TargetPath = ReviewPage.xaml
+build_metadata.AdditionalFiles.RelativePath = ReviewPage.xaml
