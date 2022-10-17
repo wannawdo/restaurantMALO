@@ -8,7 +8,7 @@
         <ToolbarItem Text="Despre Restaurant" Order="Secondary" Clicked="DespreToolbarItem_Clicked"/>
         <ToolbarItem Text="Contact" Order="Secondary" Clicked="ContactToolbarItem_Clicked"/>
         <ToolbarItem Text="Locatii" Order="Secondary" Clicked="LocatiiToolbarItem_Clicked"/>
-        <ToolbarItem Text="Nota" Order="Secondary" Clicked="NotaToolbarItem_Clicked"/>
+        <ToolbarItem Text="Rezervare" Order="Secondary" Clicked="RezervareToolbarItem_Clicked"/>
         <ToolbarItem Text="Review" Order="Secondary" Clicked="ReviewToolbarItem_Clicked"/>
         <ToolbarItem Text="Grafic Review-uri" Order="Secondary" Clicked="GraficToolbarItem_Clicked"/>
 

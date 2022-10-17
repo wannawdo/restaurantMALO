@@ -68,10 +68,10 @@
 	  <MauiXaml Update="MeniuPage.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
-	  <MauiXaml Update="NotaPage.xaml">
+	  <MauiXaml Update="ReviewPage.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
-	  <MauiXaml Update="ReviewPage.xaml">
+	  <MauiXaml Update="RezervarePage.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	</ItemGroup>

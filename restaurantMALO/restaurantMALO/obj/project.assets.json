@@ -24567,24 +24567,26 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Laura\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\Lenovo\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Laura\\Documents\\MASTER\\An 2 - Semestrul 1\\PDM - Programarea Dispozitivelor Mobile\\restaurantMALO\\restaurantMALO\\restaurantMALO\\restaurantMALO.csproj",
+      "projectUniqueName": "C:\\Users\\Lenovo\\Desktop\\proiect\\restaurantMALO\\restaurantMALO\\restaurantMALO\\restaurantMALO.csproj",
       "projectName": "restaurantMALO",
-      "projectPath": "C:\\Users\\Laura\\Documents\\MASTER\\An 2 - Semestrul 1\\PDM - Programarea Dispozitivelor Mobile\\restaurantMALO\\restaurantMALO\\restaurantMALO\\restaurantMALO.csproj",
-      "packagesPath": "C:\\Users\\Laura\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Laura\\Documents\\MASTER\\An 2 - Semestrul 1\\PDM - Programarea Dispozitivelor Mobile\\restaurantMALO\\restaurantMALO\\restaurantMALO\\obj\\",
+      "projectPath": "C:\\Users\\Lenovo\\Desktop\\proiect\\restaurantMALO\\restaurantMALO\\restaurantMALO\\restaurantMALO.csproj",
+      "packagesPath": "C:\\Users\\Lenovo\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Lenovo\\Desktop\\proiect\\restaurantMALO\\restaurantMALO\\restaurantMALO\\obj\\",
       "projectStyle": "PackageReference",
       "crossTargeting": true,
       "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\Laura\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Lenovo\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],

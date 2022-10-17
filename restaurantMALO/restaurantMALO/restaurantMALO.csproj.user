@@ -21,10 +21,10 @@
     <MauiXaml Update="MeniuPage.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
-    <MauiXaml Update="NotaPage.xaml">
+    <MauiXaml Update="ReviewPage.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
-    <MauiXaml Update="ReviewPage.xaml">
+    <MauiXaml Update="RezervarePage.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
   </ItemGroup>

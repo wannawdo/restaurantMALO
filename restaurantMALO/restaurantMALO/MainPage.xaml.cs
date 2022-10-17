@@ -26,9 +26,9 @@ public partial class MainPage : ContentPage
     {
         Navigation.PushAsync(new LocatiiPage());
     }
-    private void NotaToolbarItem_Clicked(object sender, EventArgs e)
+    private void RezervareToolbarItem_Clicked(object sender, EventArgs e)
     {
-        Navigation.PushAsync(new NotaPage());
+        Navigation.PushAsync(new RezervarePage());
     }
     private void ReviewToolbarItem_Clicked(object sender, EventArgs e)
     {
