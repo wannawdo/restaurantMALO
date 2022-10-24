@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="restaurantMALO.ReviewPage"
+             Title="Recenzii">
+    <VerticalStackLayout>
+        <Frame BackgroundColor="Aquamarine" Padding="24" CornerRadius="0">
+            <Label Text="Recenzii" HorizontalTextAlignment="Center"
+                   TextColor="White" FontSize="25"/>
+        </Frame>
+        <ListView x:Name="recenziiListView" Margin="20"
+                  RowHeight="80">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <ViewCell>
+                        <StackLayout Orientation="Horizontal">
+                            <Label Text="{Binding Nume, StringFormat='Nume: {0}, '}" VerticalOptions="Center" HorizontalOptions="Center" FontSize="Large"/>
+                            <Label Text="{Binding Comentariu, StringFormat=' Comentariu: {0}, '}" VerticalOptions="Center" HorizontalOptions="Center" FontSize="Large"/>
+                            <Label Text="{Binding Nota, StringFormat=' Nota: {0} '}" VerticalOptions="Center" HorizontalOptions="Center" FontSize="Large"/>
+                        </StackLayout>
+                    </ViewCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+    </VerticalStackLayout>
+</ContentPage>

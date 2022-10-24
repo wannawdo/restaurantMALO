@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="restaurantMALO.IstoricPage"
+             Title="IstoricPage">
+    <VerticalStackLayout>
+        <Label 
+            Text="Istoric Rezervari"
+            VerticalOptions="Center" 
+            HorizontalOptions="Center" />
+        <ListView
+            x:Name="listViewRezervari"
+                HorizontalOptions="Center">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <ViewCell>
+                        <HorizontalStackLayout>
+                            <Label Text="{Binding Nume}"/>
+                            <Label Text="{Binding Prenume, StringFormat=' {0} '}"/>
+                            <Label Text="{Binding Observatii, StringFormat=' cu obs: {0}.'}"/>
+                        </HorizontalStackLayout>
+                    </ViewCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+
+        </ListView>
+    </VerticalStackLayout>
+</ContentPage>

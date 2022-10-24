@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="restaurantMALO.DesprePage"
+             Title="Despre restaurant">
+    <ScrollView>
+        <VerticalStackLayout>
+            <Label 
+            Text="SPECIALITATEA BUCATARULUI"
+            VerticalOptions="Center" 
+            HorizontalOptions="Center" 
+            FontFamily="Century Gothic"
+            FontSize="Large"/>
+            <Label 
+            Text="Cotlet de porc la grătar cu sos de ciuperci, bacon și rondele de ceapă."
+            VerticalOptions="Center" 
+            HorizontalOptions="Center" 
+            FontFamily="Century Gothic"
+            FontSize="Medium"/>
+            <Label 
+            Text="RECOMANDAM"
+            VerticalOptions="Center" 
+            HorizontalOptions="Center" 
+            FontFamily="Century Gothic"
+            FontSize="Large"/>
+            <Label 
+            Text="Ciorbă de vacuță, piept de pui cu sos alb, cartofi cu rozmarin și usturoi."
+            VerticalOptions="Center" 
+            HorizontalOptions="Center" 
+            FontFamily="Century Gothic"
+            FontSize="Medium"/>
+            <Image
+                Source="bucatar.png"
+                WidthRequest="400"
+                Margin="0,0,0,0"
+                HorizontalOptions="Center" />
+            <Label 
+            Text="Organizam PETRECERI si EVENIMENTE"
+            VerticalOptions="Center" 
+            HorizontalOptions="Center" 
+            FontFamily="Century Gothic"
+            FontSize="Large"/>
+            <Label 
+            Text="Alege cel mai bun restaurant de evenimente din Bucuresti pentru petrecerea ta. Restaurantul MALO vă va ajuta să vă planificați evenimentul ca la carte. Nu ezitati sa ne contactati chiar acum."
+            VerticalOptions="Center" 
+            HorizontalOptions="Center" 
+            FontFamily="Century Gothic"
+            FontSize="Medium"/>
+            <Image
+                Source="petrecere.png"
+                WidthRequest="400"
+                Margin="0,0,0,0"
+                HorizontalOptions="Center" />
+            <Label 
+            Text="Despre noi"
+            VerticalOptions="Center" 
+            HorizontalOptions="Center" 
+            FontFamily="Century Gothic"
+            FontSize="Large"/>
+            <Label 
+            Text="Restaurantul MALO este locul ideal pentru a servi preparate delicioase și vinuri alese într-o atmosferă prietenoasă. Cele 100 de locuri în restaurant și 60 de locuri pe terasă vă invită să savurați preparate din bucătăria internațională și tradițională românească într-o atmosferă relaxată."
+            VerticalOptions="Center" 
+            HorizontalOptions="Center" 
+            FontFamily="Century Gothic"
+            FontSize="Medium"/>
+            <Image
+                Source="tacamuri.png"
+                WidthRequest="400"
+                Margin="0,0,0,0"
+                HorizontalOptions="Center" />
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>

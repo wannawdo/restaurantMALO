@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="restaurantMALO.MeniuPage"
+             Title="Meniu">
+    <VerticalStackLayout>
+        <Image
+                Source="meniu.png"
+                WidthRequest="400"
+                Margin="0,0,0,0"
+                HorizontalOptions="Center" />
+        <ListView
+            x:Name="listViewMeniu"
+                HorizontalOptions="Center">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <ViewCell>
+                        <HorizontalStackLayout>
+                            <Label Text="{Binding Categorie}"/>
+                            <Label Text="{Binding Denumire, StringFormat=' denumire: {0}'}"/>
+                            <Label Text="{Binding Descriere, StringFormat=' descriere: '}"/>
+                        </HorizontalStackLayout>
+                    </ViewCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+
+        </ListView>
+    </VerticalStackLayout>
+</ContentPage>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8" ?>
+    <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:system="clr-namespace:System;assembly=mscorlib"
+             x:Class="restaurantMALO.RezervarePage"
+             Title="RezervarePage">
+    <ScrollView>
+    <StackLayout>
+        <Label Text="Data" />
+            <DatePicker x:Name="dateId" MinimumDate="{x:Static system:DateTime.Now}" >
+        </DatePicker>        
+        <Label Text="Ora" />
+            <Picker x:Name="timeId" SelectedItem="{Binding Ora}">
+            <Picker.Items>
+                <x:String>10:00</x:String>
+                <x:String>11:00</x:String>
+                <x:String>12:00</x:String>
+                <x:String>13:00</x:String>
+                <x:String>14:00</x:String>
+                <x:String>15:00</x:String>
+                <x:String>16:00</x:String>
+                <x:String>17:00</x:String>
+                <x:String>18:00</x:String>
+                <x:String>19:00</x:String>
+                <x:String>20:00</x:String>
+                <x:String>21:00</x:String>
+                <x:String>22:00</x:String>
+                <x:String>23:00</x:String>
+            </Picker.Items>
+        </Picker>
+        <Label Text="Oaspeti" />
+            <Picker x:Name="nrOaspetiId" SelectedItem="{Binding NrOaspeti}">
+            <Picker.Items>
+                <x:String>2 persoane</x:String>
+                <x:String>3 persoane</x:String>
+                <x:String>4 persoane</x:String>
+                <x:String>5 persoane</x:String>
+                <x:String>6 persoane</x:String>
+                <x:String>7 persoane</x:String>
+                <x:String>8 persoane</x:String>
+                <x:String>9 persoane</x:String>
+                <x:String>10 persoane</x:String>
+            </Picker.Items>
+        </Picker>
+        <Label Text="Zona" />
+            <Picker x:Name="zonaId" SelectedItem="{Binding Zona}">
+            <Picker.Items>
+                <x:String>Parter</x:String>
+                <x:String>Etaj</x:String>
+                <x:String>Terasa</x:String>
+            </Picker.Items>
+        </Picker>
+            <Label Text="Nume" />
+            <Entry x:Name="txtNameId" Keyboard="Text" Text="{Binding Nume}"></Entry>
+            <Label Text="Prenume" />
+            <Entry x:Name="txtPrenumeId" Keyboard="Text" Text="{Binding Prenume}"></Entry>
+            <Label Text="Numar de telefon" />
+            <Entry x:Name="txtTelefonId" Keyboard="Numeric" Text="{Binding NrTelefon}"></Entry>
+            <Label Text="Email" />
+            <Entry x:Name="txtEmailId" Keyboard="Text" TextChanged="txtEmailId_TextChanged" Text="{Binding Email}"></Entry>
+            <Label Text="Observatii" />
+            <Entry x:Name="txtObservatiiId" Keyboard="Text" Text="{Binding Email}"></Entry>
+            <Button
+                x:Name="rezervareId"
+                Text="Rezerva"
+                WidthRequest="200"
+                FontSize="Body"
+                Clicked="adaugaRezervare_Clicked"
+                HorizontalOptions="Center" />
+        </StackLayout>
+    </ScrollView>
+</ContentPage>
